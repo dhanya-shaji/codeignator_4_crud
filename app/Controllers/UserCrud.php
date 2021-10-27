@@ -16,7 +16,11 @@ class UserCrud extends Controller
     public function create(){
         return view('add_user');
     }
- 
+  // add registrtion form
+  public function registration(){
+    return view('registration_form');
+}
+
     // insert data
     public function store() {
         $userModel = new UserModel();

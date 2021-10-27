@@ -1,0 +1,83 @@
+CRITICAL - 2021-10-26 03:43:02 --> Undefined variable $users
+#0 C:\xampp\htdocs\codeIgniter\app\Views\welcome_message.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 255)
+#1 C:\xampp\htdocs\codeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\codeIgniter\app\Controllers\Home.php(9): view('welcome_message')
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-26 03:59:40 --> Undefined variable $users
+#0 C:\xampp\htdocs\codeIgniter\app\Views\welcome_message.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 246)
+#1 C:\xampp\htdocs\codeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\codeIgniter\app\Controllers\Home.php(9): view('welcome_message')
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 04:07:21 --> Invalid file: .php
+#0 C:\xampp\htdocs\codeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\codeIgniter\app\Controllers\Home.php(9): view('')
+#3 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-26 04:07:22 --> Invalid file: .php
+#0 C:\xampp\htdocs\codeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\codeIgniter\app\Controllers\Home.php(9): view('')
+#3 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-26 04:37:21 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\codeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\codeIgniter\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\UserCrud->singleUser('1')
+#4 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-26 04:37:26 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\codeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\codeIgniter\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\UserCrud->singleUser('8')
+#4 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-26 10:51:24 --> Invalid file: .php
+#0 C:\xampp\htdocs\codeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\codeIgniter\app\Controllers\Home.php(9): view('')
+#3 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-26 10:52:55 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\codeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\codeIgniter\system\Common.php(1092): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\codeIgniter\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(802): App\Controllers\UserCrud->singleUser('7')
+#4 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\codeIgniter\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
